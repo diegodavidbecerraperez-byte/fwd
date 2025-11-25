@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #222;
+}
+
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(90deg, #006400, #228B22);
+  color: white;
+  position: relative;
+}
+
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #004d00;
+  padding: 10px 0;
+  z-index: 1000; 
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 20px 20px; 
+  gap: 20px;
+}
+
+.fundacion {
+  flex: 2;
+  min-width: 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.fundacion .imagenes {
+  margin-top: 15px;
+}
+
+.fundacion .imagenes img {
+  max-width: 280px;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: 2px solid #006400;
+}
+
+
+#palmares {
+  flex: 1;
+  min-width: 250px;
+  background: #e9f7ef;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+#palmares h2 {
+  color: #006400;
+}
+
+
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  background: #222;
+  color: white;
+}
+
+.trofeo{
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  gap: 15px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.trofeo:hover{
+   transform: scale(1.02);
+}
+
+.trofeo img{
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.contenedor-jugadores{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.jugador{
+  background: green;
+  padding: 10px;
+  border-radius: 10px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.jugador img{
+  width: 130px;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #006400; 
+}
+
+.jugador p{
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+
